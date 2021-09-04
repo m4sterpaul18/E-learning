@@ -36,6 +36,10 @@ $routes->get('/', 'Home::index');
 $routes->match(['get','post'],'register', 'Home::register');
 $routes->match(['get','post'],'login', 'Home::login');
 
+// routes to login and register to shorten url
+$routes->add('login','Home::login');
+$routes->add('register','Home::register');
+
 /*
  * --------------------------------------------------------------------
  * Additional Routing
