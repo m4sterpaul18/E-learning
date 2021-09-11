@@ -18,11 +18,11 @@
             <div class="row">
                 <div class="form-group col-sm-12 col-md-6 mb-2">
                     <label for="">First Name</label>
-                    <input type="text" class="form-control" name="fname">
+                    <input type="text" class="form-control" name="fname" placeholder="First Name">
                 </div>
                 <div class="form-group col-sm-12 col-md-6 mb-2">
                     <label for="">Last Name</label>
-                    <input type="text" class="form-control" name="lname">
+                    <input type="text" class="form-control" name="lname" placeholder="Last Name">
                 </div>
                 <div class="form-group col-sm-12 mb-2">
                     <label for="">Section</label>
@@ -39,16 +39,16 @@
             
             <div class="form-group col-sm-12 mb-2">
                 <label for="">Student-ID</label>
-                <input type="text" class="form-control" name="student-id">
-                <small class="form-text text-light lead">Student ID will be used to login.</small>
+                <input type="text" class="form-control" name="student-id" placeholder="xxxx-xxxxx">
+                <small class="form-text text-light lead">Student ID will be used to login. Ex: 2018-xxxxx </small>
             </div>
             <div class="form-group col-sm-12 mb-2">
                 <label for="">Password</label>
-                <input type="password" class="form-control" name="password">
+                <input type="password" class="form-control" name="password" placeholder="Password">
             </div>
             <div class="form-group col-sm-12 mb-2">
                 <label for="">Confirm Password</label>
-                <input type="password" class="form-control" name="confirmPassword">
+                <input type="password" class="form-control" name="confirmPassword" placeholder="Confirm Password">
             </div>
             <div class="form-group d-grid gap-2 mt-3">
                 <button type="submit" class="btn btn-success">Register <i class="fab fa-wpforms"></i></button>

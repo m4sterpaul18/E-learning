@@ -7,7 +7,7 @@ class UsersModel extends Model{
     // users table in the database
     protected $table = 'users';
     // allowed fields only to be manipulated 
-    protected $allowedFields = ['fname','lname','section','student-id','password','confirmPassword'];
+    protected $allowedFields = ['firstname','lastname','section','student-id','password'];
     protected $beforeInsert = ['beforeInsert'];
     protected $beforeUpdate = ['beforeUpdate'];
 

@@ -25,9 +25,56 @@ class Home extends BaseController
 		// form helper for form validation
     	helper(['form']);
 
+		if($this->request->getMethod()== 'post'){
+			//rules for validation
+			$rules = [
+				'student-id' => 'required',
+				'password' => 'required|validateUser[student-id,password]',
+			];
+			// custom error messages and functions
+			$errors = [
+				'password'=>[
+					'validateUser' => 'Student-ID or Password is incorrect'
+				]
+			];
+			//checks if validations is success
+			if(! $this->validate($rules,$errors)){
+				$data['validation'] = $this->validator;
+			}
+			else{
+				// load model
+				$model = new UsersModel();
+
+				// set session
+
+				$user = $model->where('student-id',$this->request->getVar('student-id'))
+							  ->first();
+
+				$this->setUserSession($user);
+
+				// redirect to dashboard
+				return redirect()->to(base_url('e-learning/public/dashboard'));
+			}
+		}
+		else{
+			// 
+		}
 		echo view('template/header',$data);
 		echo view('loginpage');
 		echo view('template/footer');
+	}
+	// custom function to set user session
+	private function setUserSession($user){
+		$data = [
+			'firstname' => $user['firstname'],
+			'lastname' => $user['lastname'],
+			'section' => $user['section'],
+			'student-id' => $user['student-id'],
+			'isloggedIn' => TRUE
+		];
+		// set session
+		session()->set($data);
+		return true;
 	}
 
 
