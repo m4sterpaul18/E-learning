@@ -1,4 +1,4 @@
-<div class="container bg-primary p-5 mb-5 mt-5" style="width:40%;border-radius:0.5rem;">
+<div class="container p-5 mb-5 mt-5" style="width:40%;border-radius:0.5rem;background-color:var(--bg-primary);">
     <form action="" method="post" class="text-light">
         <h1 class="text-center">Sign In</h1>
         <?php

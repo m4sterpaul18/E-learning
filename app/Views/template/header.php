@@ -8,10 +8,10 @@
     <!-- bootstrap CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
     <!-- own css -->
-    <link rel="stylesheet" href="/public/assets/style.css">
+    <link rel="stylesheet" type="text/css" href="/e-learning/public/assets/css/style.css">
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color:var(--bg-primary);">
         <div class="container-fluid">
             <!-- insert logo here -->
             <a href="<?= base_url('e-learning/public/')?>" class="navbar-brand" style="font-size:1.5rem;">E-learning <i class="fas fa-graduation-cap fa-lg"></i></a>

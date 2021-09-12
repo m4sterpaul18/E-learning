@@ -40,6 +40,8 @@ $routes->match(['get','post'],'login', 'Home::login');
 $routes->add('login','Home::login');
 $routes->add('register','Home::register');
 $routes->add('dashboard','Dashboard::index');
+$routes->add('ranking','Dashboard::ranking');
+$routes->add('profile','Dashboard::profile');
 
 /*
  * --------------------------------------------------------------------

@@ -1,5 +1,5 @@
 <div class="container mb-5" style="border-radius:0.5rem;margin-top:5vh;">
-    <div class="jumbotron bg-primary p-5 text-light mx-auto" style="width:50vw;">
+    <div class="jumbotron p-5 text-light mx-auto" style="width:50vw;background-color:var(--bg-primary);">
         <h1 class="text-center">Register</h1>
             <?php
                 if(isset($validation)){

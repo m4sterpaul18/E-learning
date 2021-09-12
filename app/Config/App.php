@@ -19,11 +19,11 @@ class App extends BaseConfig
 	 * If this is not set then CodeIgniter will try guess the protocol, domain
 	 * and path to your installation. However, you should always configure this
 	 * explicitly and never rely on auto-guessing, especially in production
-	 * environments.
+	 * environments.s
 	 *
 	 * @var string
 	 */
-	public $baseURL = 'http://localhost:8080/e-learning';
+	public $baseURL = 'http://localhost/e-learning/';
 
 	/**
 	 * --------------------------------------------------------------------------
