@@ -42,6 +42,9 @@ $routes->add('register','Home::register');
 $routes->add('dashboard','Dashboard::index');
 $routes->add('ranking','Dashboard::ranking');
 $routes->add('profile','Dashboard::profile');
+$routes->add('logout','Dashboard::logout');
+// auth session
+$routes->get('dashboard','Dashboard::index',['filter'=>'auth']);
 
 /*
  * --------------------------------------------------------------------

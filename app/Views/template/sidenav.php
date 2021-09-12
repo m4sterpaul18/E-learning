@@ -27,7 +27,7 @@
                 <a class="navi-link" href="/e-learning/public/ranking"><i class="fas fa-gamepad"></i> <span class="link-text">Ranking</span></a>
             </li>
             <li class="navi-item">
-                <a class="navi-link" href=""><i class="fas fa-sign-out-alt"></i> <span class="link-text">Sign Out</span></a>
+                <a class="navi-link" href="/e-learning/public/logout"><i class="fas fa-sign-out-alt"></i> <span class="link-text">Sign Out</span></a>
             </li>
         </ul>
     </nav>

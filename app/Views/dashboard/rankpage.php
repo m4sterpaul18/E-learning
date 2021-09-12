@@ -37,15 +37,26 @@
                     <button class="btn btn-primary">View profile</button>
                 </div>
             </div> 
-            <p>Test</p>
-            <p>Test</p>
-            <p>Test</p>
-            <p>Test</p>
-            <p>Test</p>
-            <p>Test</p>
-            <p>Test</p>
-            <p>Test</p>
-            <p>Test</p>
+            <table class="table table-dark table-striped table-hover table-bordered mt-3">
+                <thead>
+                    <tr>
+                        <td>Rank</td>
+                        <td>IGN</td>
+                        <td>Points</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <?php
+                    for($i=4;$i<11;$i++)
+                        echo 
+                        '<tr>
+                            <td>'.$i.'</td>
+                            <td>Test</td>
+                            <td>21</td>
+                        </tr>';
+                    ?>
+                </tbody>
+            </table>
         </div>
     </div>
 </main>

@@ -8,6 +8,7 @@ class Dashboard extends BaseController{
         echo view('template/sidenav',$data);
 		echo view('dashboard/dashboardpage');
 		echo view('template/footer');
+        
     }
 
     public function ranking(){
@@ -22,6 +23,11 @@ class Dashboard extends BaseController{
         echo view('template/sidenav',$data);
 		echo view('dashboard/profilepage');
 		echo view('template/footer');
+    }
+
+    public function logout(){
+        session()->destroy();
+        return redirect()->to(base_url('/e-learning/public/login'));
     }
 }
 

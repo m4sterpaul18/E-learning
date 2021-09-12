@@ -18,7 +18,8 @@ class Filters extends BaseConfig
 	public $aliases = [
 		'csrf'     => CSRF::class,
 		'toolbar'  => DebugToolbar::class,
-		'honeypot' => Honeypot::class,
+		'honeypot' => Honeypot::class,	
+		'auth' => \App\Filters\Auth::class
 	];
 
 	/**
