@@ -1,11 +1,14 @@
 :root{
     font-size: 1rem;
-    --text-primary: #b6b6b6;
+    --text-primary: #ffffff;
     --text-secondary: #9c9cda;
-    /* --bg-primary: #23232e; */
     --bg-primary:#6649b8;
-    --bg-secondary: #141418;
+    --bg-secondary: #181414;
     --transition-speed: 300ms;
+}
+
+img{
+    object-fit: cover;
 }
 .bg-primary{
     background-color: var(--bg-primary);
@@ -27,6 +30,7 @@
         bottom:0;
         width: 100vw;
         height: 4rem;
+        margin-top: 0;
     }
 
     .navi-nav{
@@ -59,14 +63,16 @@
         height: 100vh;
     }
 
+
     main{
         margin-left:10rem;
     }
 
     .navi-nav{
         flex-direction: column;
+       
     }
-
+   
     .navi-item:last-child{
         margin-top: auto;
     }
@@ -75,9 +81,9 @@
         margin-left: 0.5rem;
     }
 }
-
+/* scroll bars css */
 body::-webkit-scrollbar {
-    width: 0.30rem;
+    width: 0.4rem;
 }
   
 body::-webkit-scrollbar-track {
@@ -88,6 +94,8 @@ body::-webkit-scrollbar-thumb {
     background: #422e77;
   }
 
+
+/* navigation bar css */
 .navibar{
     padding: 0.5rem;
     position: fixed;
@@ -109,6 +117,7 @@ body::-webkit-scrollbar-thumb {
 }
 .navi-item:hover{
     transform: scale(1.1);
+
 }
 
 .navi-link{
@@ -134,9 +143,39 @@ body::-webkit-scrollbar-thumb {
 }
 .rank-2{
     background-color: #C0C0C0;
-    
 }
 .rank-3{
     color:white;
     background-color: rgba(233, 144, 10, 0.767);
+}
+/* button */
+.btn-outline-primary{
+    color:#6649b8 !important;
+    border-color: #6649b8 !important;   
+}
+
+.btn-outline-primary:hover{
+    color:var(--text-primary) !important;
+    border-color: #6649b8 !important;
+    background-color:#6649b8 ;
+}
+
+/* image parallax bacgkround */
+
+.program{
+    background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url('../images/programming.jpeg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover; 
+}
+
+.gaming{
+    background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url('../images/gaming.jpeg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover; 
 }

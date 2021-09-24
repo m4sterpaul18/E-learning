@@ -14,7 +14,7 @@
     <nav class="navbar navbar-expand-lg navbar-dark" style="background-color:var(--bg-primary);">
         <div class="container-fluid">
             <!-- insert logo here -->
-            <a href="<?= base_url('e-learning/public/')?>" class="navbar-brand" style="font-size:1.5rem;">E-learning <i class="fas fa-graduation-cap fa-lg"></i></a>
+            <a href="<?= base_url('e-learning/public/')?>" class="navbar-brand" style="font-size:1.5rem;">G-learn <i class="fas fa-graduation-cap fa-lg"></i></a>
             <!-- toggler -->
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>

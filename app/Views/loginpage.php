@@ -11,7 +11,7 @@
         <div>
             <label for="Student-ID">Student-ID</label>
             <input type="text" class="form-control" id="Student-ID" name="student-id" 
-            value="<?= set_value('student-id')?>" placeholder="xxxx-xxxxx">
+            value="<?= set_value('student-id')?>" placeholder="xxxx-xxxxx" autocomplete="off">
         </div>
         <div>
             <label for="Password">Password</label>  

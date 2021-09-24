@@ -43,8 +43,13 @@ $routes->add('dashboard','Dashboard::index');
 $routes->add('ranking','Dashboard::ranking');
 $routes->add('profile','Dashboard::profile');
 $routes->add('logout','Dashboard::logout');
-// auth session
+
+// auth filters to redirect to login page if logged out
 $routes->get('dashboard','Dashboard::index',['filter'=>'auth']);
+$routes->get('ranking','Dashboard::ranking',['filter'=>'auth']);
+$routes->get('profile','Dashboard::profile',['filter'=>'auth']);
+$routes->get('lessons','Lessons::index',['filter'=>'auth']);
+
 
 /*
  * --------------------------------------------------------------------

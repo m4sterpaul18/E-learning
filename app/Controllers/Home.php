@@ -70,7 +70,7 @@ class Home extends BaseController
 			'lastname' => $user['lastname'],
 			'section' => $user['section'],
 			'student-id' => $user['student-id'],
-			'isloggedIn' => TRUE
+			'isloggedIn' => 1
 		];
 		// set session
 		session()->set($data);

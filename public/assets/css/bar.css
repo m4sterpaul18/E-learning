@@ -1,0 +1,65 @@
+/* small screens */
+@media only screen and (max-width:600px){
+    .lessons-main{
+        margin-left: 10rem;
+    }
+    .side-bar{
+        width: 7rem;
+        font-size: 0.8rem;
+    }
+    .accordion-button{
+        font-size: 0.8rem;
+    }
+    .lessons-main{
+        margin-left:8rem;
+    }
+
+}
+/* large screens */
+@media only screen and (min-width:600px){
+    .lessons-main{
+        margin-left: 12rem;
+    }
+    .side-bar{
+        width: 9rem;
+    }
+}
+.progress-container{
+	position: fixed;
+	top:0;
+	z-index: 1;
+	width: 100%;	
+  	height: 5px;
+  	background: #ccc;
+}
+
+.progress-bars{
+	height: 5px;
+	width: 0%;
+	background-color:#3f2b75;
+}
+
+/* nav-bar */
+
+.side-bar{
+   height: 100%;
+   position: fixed;
+   background-color:var(--bg-primary);
+   top:0;
+   left: 0;
+   padding-top: 2.5rem;
+   transition: 0.5s at ease;
+}
+.side-bar button{
+   color: var(--bg-primary);
+}
+.side-bar a{
+   text-decoration: none;	
+   color:var(--bg-primary);	
+   display: block;
+}
+.side-bar ol{
+    list-style: lower-alpha;
+    margin:0;
+    padding: 0;
+}

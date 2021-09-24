@@ -1,8 +1,8 @@
 <div class="container text-center" style="margin-top:10rem;height:80vh;">
     <h1 style="color:var(--bg-primary);">Welcome to Gamified E-learning</h1>
     <p class="lead" >Yes you heard it right, Games with Learning duh</p>
-    <a href="<?=base_url('e-learning/public/register')?>" class="btn btn-outline-primary">Register</a>
-    <a href="<?=base_url('e-learning/public/login')?>" class="btn btn-outline-success">Login</a>
+    <a href="<?=base_url('e-learning/public/register')?>" class="btn btn-outline-primary buttons">Register</a>
+    <a href="<?=base_url('e-learning/public/login')?>" class="btn btn-outline-primary">Login</a>
 
     <div class="row" style="margin-top:7rem">
         <div class="col-md-4 jumbotron mb-3">
@@ -19,5 +19,27 @@
         </div>
     </div>
 </div>
+
+<!-- separation -->
+
+<div class="div container-fluid text-light program mt-5" style="min-height:50vh;">
+        <div class="p-5" style="text-align:right;">
+            <h1 >Programming Lessons</h1>
+            <p class="lead">We teach the fundamentals of programming to the upcoming students</p> 
+        </div>            
+</div>
+<div class="div container-fluid" style="min-height:30vh;color:var(--bg-primary);">
+        <div class="p-5">
+            <h1>Game Elements</h1>
+            <p class="lead">Our system has integrated game elements for enjoyment and interaction</p>
+        </div>
+</div>
+<div class="div container-fluid text-light gaming mt-5" style="min-height:50vh;">
+        <div class="p-5" style="text-align:right;">
+            <h1>Games</h1>
+            <p class="lead">We paired learning with our educational game for maximum enjoyment and fun!</p>
+        </div>
+</div>
+
         
   

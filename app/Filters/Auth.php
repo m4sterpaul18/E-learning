@@ -10,8 +10,9 @@ class Auth implements FilterInterface
 {
     public function before(RequestInterface $request, $arguments = null)
     {
-        if(! session()->get('isLoggedIn')){
-            // return redirect()->to(base_url('/e-learning/public/login'));
+        // return to login page if logged out
+        if(! session()->get('isloggedIn')){
+            return redirect()->to(base_url('/e-learning/public/login'));
         }
     }
 

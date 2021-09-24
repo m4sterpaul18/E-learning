@@ -8,6 +8,7 @@
             <p><b>Name:</b> <?= session()->get('firstname')?></p>
             <p><b>Lastname:</b> <?= session()->get('lastname')?></p>
             <p><b>Section:</b> <?= session()->get('section')?></p>
+            <p><b>Student-ID:</b> <?= session()->get('student-id')?></p>
         </div>
     </div>
 </main>
