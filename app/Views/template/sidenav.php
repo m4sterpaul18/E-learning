@@ -14,19 +14,19 @@
     <nav class="navibar">
         <ul class="navi-nav">
             <li class="navi-item">
-                <a class="navi-link" href="/e-learning/public/dashboard"><i class="fas fa-home"></i> <span class="link-text">Home</span></a>
+                <a class="navi-link" href="/e-learning/public/dashboard"> <span class="link-text">Home <i class="fas fa-home"></i></span></a>
             </li>
             <li class="navi-item">
-                <a class="navi-link" href="/e-learning/public/profile"><i class="fas fa-user-alt"></i> <span class="link-text">Profile</span></a>
+                <a class="navi-link" href="/e-learning/public/profile"><span class="link-text">Profile <i class="fas fa-user-alt"></i></span></a>
             </li>
             <li class="navi-item">
-                <a class="navi-link" href="/e-learning/public/lessons"><i class="fas fa-book-open"></i> <span class="link-text">Learn</span></a>
+                <a class="navi-link" href="/e-learning/public/lesson"><span class="link-text">Learn <i class="fas fa-book-open"></i></span></a>
             </li>
             <li class="navi-item">
-                <a class="navi-link" href="/e-learning/public/ranking"><i class="fas fa-gamepad"></i> <span class="link-text">Ranking</span></a>
+                <a class="navi-link" href="/e-learning/public/ranking"><span class="link-text">Rank <i class="fas fa-gamepad"></i></span></a>
             </li>
             <li class="navi-item">
-                <a class="navi-link" href="/e-learning/public/logout"><i class="fas fa-sign-out-alt"></i> <span class="link-text">Sign Out</span></a>
+                <a class="navi-link" href="/e-learning/public/logout"><span class="link-text">Sign Out <i class="fas fa-sign-out-alt"></i></span></a>
             </li>
         </ul>
     </nav>

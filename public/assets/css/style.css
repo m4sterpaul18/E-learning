@@ -1,7 +1,7 @@
 :root{
     font-size: 1rem;
     --text-primary: #ffffff;
-    --text-secondary: #9c9cda;
+    --text-secondary: #a7a7e7;
     --bg-primary:#6649b8;
     --bg-secondary: #181414;
     --transition-speed: 300ms;
@@ -59,13 +59,13 @@ img{
 @media only screen and (min-width:600px){
     .navibar{
         top:0;
-        width: 10rem;
+        width: 8rem;
         height: 100vh;
     }
 
 
     main{
-        margin-left:10rem;
+        margin-left:8rem;
     }
 
     .navi-nav{
@@ -136,6 +136,10 @@ body::-webkit-scrollbar-thumb {
     font-weight: bold;
 
 }
+
+
+
+
 /*////////// ranking css below //////////////*/
 
 .rank-1{
@@ -160,6 +164,10 @@ body::-webkit-scrollbar-thumb {
     background-color:#6649b8 ;
 }
 
+
+
+
+
 /* image parallax bacgkround */
 
 .program{
@@ -179,3 +187,43 @@ body::-webkit-scrollbar-thumb {
     background-size: cover;
     object-fit: cover; 
 }
+
+
+
+
+/* lessons css  */
+
+.zoom{
+    transition: 0.2s ease;
+}
+.zoom:hover{
+    transform:scale(1.05);
+}
+.image{
+    min-height: 300px;
+    border-radius: 0.5rem; 
+    object-fit: cover;
+}
+.lesson-1{
+    background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url('../images/lesson-1.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+.lesson-2{
+    background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url('../images/lesson-2.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.lesson-3{
+    background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url('../images/lesson-3.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+

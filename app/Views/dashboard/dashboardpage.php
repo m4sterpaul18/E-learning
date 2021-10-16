@@ -24,7 +24,7 @@
                 <div class="col-md-6">
                     <h3>Check Ranking</h3>
                     <p>Check top player scores on our leaderboard</p>
-                    <a href="/e-learning/public/ranking" class="btn btn-primary">Learn</a>
+                    <a href="/e-learning/public/ranking" class="btn btn-primary">Ranking</a>
                 </div>
                 <div class="col-md-6">
                     <img src="/e-learning/public/assets/svg/top.svg" alt="Icons made by Freepik" class="img-fluid my-2" title="Freepik.com">

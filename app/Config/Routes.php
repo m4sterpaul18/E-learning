@@ -39,16 +39,21 @@ $routes->match(['get','post'],'login', 'Home::login');
 // routes to login and register to shorten url
 $routes->add('login','Home::login');
 $routes->add('register','Home::register');
+
 $routes->add('dashboard','Dashboard::index');
 $routes->add('ranking','Dashboard::ranking');
 $routes->add('profile','Dashboard::profile');
 $routes->add('logout','Dashboard::logout');
+$routes->add('lesson','Dashboard::lesson');
 
 // auth filters to redirect to login page if logged out
 $routes->get('dashboard','Dashboard::index',['filter'=>'auth']);
 $routes->get('ranking','Dashboard::ranking',['filter'=>'auth']);
 $routes->get('profile','Dashboard::profile',['filter'=>'auth']);
+$routes->get('lesson','Dashboard::lesson',['filter'=>'auth']);
+
 $routes->get('lessons','Lessons::index',['filter'=>'auth']);
+
 
 
 /*
