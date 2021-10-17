@@ -54,6 +54,11 @@ img{
         margin-right: 0;
     }
 
+    /* profile page card css */
+    .profile{
+        width:100%;
+    }
+
 }
 /* large screens */
 @media only screen and (min-width:600px){
@@ -80,6 +85,12 @@ img{
     .link-text{
         margin-left: 0.5rem;
     }
+
+    /* profile page card css */
+    .profile{
+        width:30vw;
+    }
+
 }
 /* scroll bars css */
 body::-webkit-scrollbar {
@@ -224,6 +235,15 @@ body::-webkit-scrollbar-thumb {
     background-size: cover;
 
 }
+
+/* profile page css */
+.profile{
+    border-color: var(--bg-primary);
+}
+.profile .list-group-item p b{
+    color:var(--bg-primary);
+}
+
 
 
 

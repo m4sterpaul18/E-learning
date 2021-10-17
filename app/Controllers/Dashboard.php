@@ -32,6 +32,13 @@ class Dashboard extends BaseController{
 		echo view('template/footer');
     }
 
+    public function game(){
+        $data = [];
+        echo view('template/sidenav',$data);
+		echo view('dashboard/gamespage');
+		echo view('template/footer');
+    }
+
     public function logout(){
         session()->destroy();
         return redirect()->to(base_url('/e-learning/public/login'));

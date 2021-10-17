@@ -23,7 +23,10 @@
                 <a class="navi-link" href="/e-learning/public/lesson"><span class="link-text">Learn <i class="fas fa-book-open"></i></span></a>
             </li>
             <li class="navi-item">
-                <a class="navi-link" href="/e-learning/public/ranking"><span class="link-text">Rank <i class="fas fa-gamepad"></i></span></a>
+                <a class="navi-link" href="/e-learning/public/ranking"><span class="link-text">Rank <i class="fas fa-medal"></i></span></a>
+            </li>
+            <li class="navi-item">
+                <a class="navi-link" href="/e-learning/public/game"><span class="link-text">Games <i class="fas fa-gamepad"></i></span></a>
             </li>
             <li class="navi-item">
                 <a class="navi-link" href="/e-learning/public/logout"><span class="link-text">Sign Out <i class="fas fa-sign-out-alt"></i></span></a>

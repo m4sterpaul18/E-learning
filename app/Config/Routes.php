@@ -43,14 +43,17 @@ $routes->add('register','Home::register');
 $routes->add('dashboard','Dashboard::index');
 $routes->add('ranking','Dashboard::ranking');
 $routes->add('profile','Dashboard::profile');
-$routes->add('logout','Dashboard::logout');
 $routes->add('lesson','Dashboard::lesson');
+$routes->add('game','Dashboard::game');
+$routes->add('logout','Dashboard::logout');
+
 
 // auth filters to redirect to login page if logged out
 $routes->get('dashboard','Dashboard::index',['filter'=>'auth']);
 $routes->get('ranking','Dashboard::ranking',['filter'=>'auth']);
 $routes->get('profile','Dashboard::profile',['filter'=>'auth']);
 $routes->get('lesson','Dashboard::lesson',['filter'=>'auth']);
+$routes->get('game','Dashboard::game',['filter'=>'auth']);
 
 $routes->get('lessons','Lessons::index',['filter'=>'auth']);
 
