@@ -9,10 +9,9 @@ $(function(){
     let game_id = "CAdventures";
     let game_version = 	"1.0";
     let maximum = "10";
-    let ldboard_name = "main";
     let period_offset = "0";
 
-    var request_url = `https://api.silentwolf.com/get_top_scores/${game_id}?version=${game_version}&max=${maximum}&ldboard_name=${ldboard_name}&period_offset=${period_offset}`;
+    
     
     // functions for hide spinner on load
     function hideSpinner(){
@@ -29,7 +28,7 @@ $(function(){
     const getScores = async (url) => {
         const response = await fetch(url,{
             headers:{
-                'x-api-key': "eZTxjtuvCn6VTH78JQAbTaO25xOJ4AZj9DOKML8d"
+                'x-api-key': api_key
             }
         });
         const data = await response.json();
@@ -37,12 +36,25 @@ $(function(){
     }
     // render leaderboard
     const showLeaderBoard = async () =>{
+        // empty top 3 first
+        $('#top').empty();
+        // empty the table first 
         $('#table-body').empty();
 
-        // show spinner
+        // set ldboard_name
+        let ldboard_name = $('#ld_name').val();
+        console.log("requested leaderboard: ", ldboard_name)
+        // make get request url
+
+        var request_url = `https://api.silentwolf.com/get_top_scores/${game_id}?version=${game_version}&max=${maximum}&ldboard_name=${ldboard_name}&period_offset=${period_offset}`;
+        console.log(request_url)
+
+        // show spinner while still gathering data
         showSpinner();
+
         const scores = await getScores(request_url);
-        // hide spinner
+
+        // hide spinner after gathering data
         hideSpinner();
 
         console.log(scores)
@@ -54,39 +66,72 @@ $(function(){
             console.log(playerScores);
             // top 1
             if(i == 0){
-                $('#table-body').append(
+                $('#top').append(
                 `
-                <tr style="color:yellow;">
-                    <td>${i+1}</td>
-                    <td>${playerNames} <i class="fas fa-trophy"></i></td>
-                    <td>${playerScores}</td>
-                </tr>
+                <div class="col-md-6 offset-md-3 my-3">
+                    <div class="card rank-1">
+                        <div class="card-header text-center">
+                            <h4 class="card-title">Rank #1  <i class="fas fa-trophy"></i></h4>
+                        </div>
+                        <div class="card-body">
+                            <p>Name: ${playerNames}</p>
+                            <p>Score: ${playerScores}</p>
+                        </div>
+                        <div class="card-footer">
+                            <button class="btn btn-primary">Profile</button>
+                        </div>
+                    </div>
+                </div>
                 `
                 );
+
+                $('#top').slideDown();
             }
             // top 2
             else if(i == 1){
-                $('#table-body').append(
-                `
-                <tr style="color:silver;">
-                    <td>${i+1}</td>
-                    <td>${playerNames} <i class="fas fa-trophy"></i></td>
-                    <td>${playerScores}</td>
-                </tr>
-                `
-                );
+                $('#top').append(
+                    `
+                    <div class="col-md-6 my-3">
+                        <div class="card rank-2">
+                            <div class="card-header text-center">
+                                <h4 class="card-title">Rank #2  <i class="fas fa-trophy"></i></h4>
+                            </div>
+                            <div class="card-body">
+                                <p>Name: ${playerNames}</p>
+                                <p>Score: ${playerScores}</p>
+                            </div>
+                            <div class="card-footer">
+                                <button class="btn btn-primary">Profile</button>
+                            </div>
+                        </div>
+                    </div>
+                    `
+                    );
+
+                $('#top').slideDown();
             }
             // top 3
             else if(i == 2){
-                $('#table-body').append(
-                `
-                <tr style="color:#ea953d;">
-                    <td>${i+1}</td>
-                    <td>${playerNames} <i class="fas fa-trophy"></i></td>
-                    <td>${playerScores}</td>
-                </tr>
-                `
-                );
+                $('#top').append(
+                    `
+                    <div class="col-md-6 my-3">
+                        <div class="card rank-3">
+                            <div class="card-header text-center">
+                                <h4 class="card-title">Rank #3  <i class="fas fa-trophy"></i></h4>
+                            </div>
+                            <div class="card-body">
+                                <p>Name: ${playerNames}</p>
+                                <p>Score: ${playerScores}</p>
+                            </div>
+                            <div class="card-footer">
+                                <button class="btn btn-primary">Profile</button>
+                            </div>
+                        </div>
+                    </div>
+                    `
+                    );
+
+                $('#top').slideDown();
             }
             // default
             else{
@@ -96,6 +141,7 @@ $(function(){
                     <td>${i+1}</td>
                     <td>${playerNames}</td>
                     <td>${playerScores}</td>
+                    <td><button class="btn btn-primary">Profile</button></td>
                 </tr>
                 `
                 );

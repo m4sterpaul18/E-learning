@@ -7,6 +7,25 @@
     --transition-speed: 300ms;
 }
 
+
+
+/* loader css */
+.loader-wrapper{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    margin: 0;
+    top: 0;
+    left: 0;
+    background-color: var(--bg-primary);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
 img{
     object-fit: cover;
 }
@@ -58,6 +77,14 @@ img{
     .profile{
         width:100%;
     }
+    /* register-page wrapper size on small screens */
+    .register-wrapper{
+        width: 100%;
+    }
+    /* login size depends on screen */
+    .login-wrapper{
+        width: 100%;
+    }
 
 }
 /* large screens */
@@ -89,6 +116,17 @@ img{
     /* profile page card css */
     .profile{
         width:30vw;
+    }
+
+    /* register-page wrapper size on large screen*/
+    .register-wrapper{
+        width: 50vw;
+        margin: 0 auto;
+    }
+
+    /* login size depends on screen */
+    .login-wrapper{
+        width: 45vw;
     }
 
 }
@@ -154,15 +192,41 @@ body::-webkit-scrollbar-thumb {
 /*////////// ranking css below //////////////*/
 
 .rank-1{
-    background-color: rgb(245, 245, 78);
+    z-index: -1;
+    border-radius: 10px;
+    border: 2px solid #fdcd3a;
 }
+.rank-1 .card-header{
+    color: white;
+    background-color:#fdcd3a;
+}
+
 .rank-2{
-    background-color: #C0C0C0;
+    z-index: -1;
+    border-radius: 10px;
+    border: 3px solid #797979;
 }
+
+.rank-2 .card-header{
+    color: white;
+    background-color: #797979;
+}
+
 .rank-3{
-    color:white;
-    background-color: rgba(233, 144, 10, 0.767);
+    z-index: -1;
+    border-radius: 10px;
+    border: 3px solid #804A00;
 }
+
+.rank-3 .card-header{
+    color: white;
+    background-color: #804A00;
+}
+
+.rank-1, .rank-2, .rank-3{
+    color:var(--bg-secondary);
+}
+
 /* button */
 .btn-outline-primary{
     color:#6649b8 !important;

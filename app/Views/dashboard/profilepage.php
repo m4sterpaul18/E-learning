@@ -1,3 +1,7 @@
+<!-- loader -->
+<div class="loader-wrapper">
+    <img src="/e-learning/public/assets/gif/loader.gif" alt="">
+</div>
 <main class="p-5 mb-5">
     <div class="card mx-auto profile" style="font-size:1.2rem;z-index:-1;">
         <div class="card-header text-center text-light" style="background-color: var(--bg-primary);">

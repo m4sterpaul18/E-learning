@@ -1,36 +1,32 @@
 <?php
-
 namespace App\Controllers;
 
-use CodeIgniter\Controller;
-
-class Lessons extends BaseController{
-    public function chapter1(){
+class Quizzes extends BaseController{
+    public function quiz1(){
         $data = array(
-            'title' => 'Chapter 1'
+            'title' =>'Quiz 1'
         );
         echo view('chapters/templates/chapter-header',$data);
-        echo view('chapters/chapter-1');
+        echo view('chapters/quizzes/chapter-1-quiz');
         echo view('chapters/templates/chapter-footer');
     }
 
-    public function chapter2(){
+    public function quiz2(){
         $data = array(
-            'title' => 'Chapter 2'
+            'title' =>'Quiz 2'
         );
         echo view('chapters/templates/chapter-header',$data);
-        echo view('chapters/chapter-2');
+        echo view('chapters/quizzes/chapter-2-quiz');
         echo view('chapters/templates/chapter-footer');
     }
 
-    public function chapter3(){
+    public function quiz3(){
         $data = array(
-            'title' => 'Chapter 3'
+            'title' =>'Quiz 3'
         );
         echo view('chapters/templates/chapter-header',$data);
-        echo view('chapters/chapter-3');
+        echo view('chapters/quizzes/chapter-3-quiz');
         echo view('chapters/templates/chapter-footer');
     }
 }
-
 ?>

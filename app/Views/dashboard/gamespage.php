@@ -1,3 +1,7 @@
+<!-- loader -->
+<div class="loader-wrapper">
+    <img src="/e-learning/public/assets/gif/loader.gif" alt="">
+</div>
 <main class="px-5 py-2">
     <div class="row text-center">
         <div class="col-md-12 mb-3 mx-auto">

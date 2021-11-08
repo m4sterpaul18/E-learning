@@ -1,3 +1,8 @@
+<!-- loader -->
+<div class="loader-wrapper">
+    <img src="/e-learning/public/assets/gif/loader.gif" alt="">
+</div>
+
 <main class="px-5 py-3">
     <div class="row">
         <div class="col-12 text-center p-4" 
@@ -33,6 +38,5 @@
                 </div>
             </div>
         </div>    
-       
     </div>
 </main>

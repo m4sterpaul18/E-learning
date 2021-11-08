@@ -5,12 +5,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home Page</title>
+
+    <link rel="icon" href="<?=base_url()?>/e-learning/favicon.ico" type="image/gif">
+    <!-- Animate on screen css -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- JS for animation -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
     <!-- bootstrap CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
     <!-- own css -->
     <link rel="stylesheet" type="text/css" href="/e-learning/public/assets/css/style.css">
 </head>
 <body>
+<script>
+  AOS.init();
+</script>
     <nav class="navbar navbar-expand-lg navbar-dark" style="background-color:var(--bg-primary);">
         <div class="container-fluid">
             <!-- insert logo here -->
@@ -32,4 +42,6 @@
             </div>
         </div>
     </nav>
+
+    
     
