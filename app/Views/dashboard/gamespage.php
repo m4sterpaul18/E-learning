@@ -2,6 +2,7 @@
 <div class="loader-wrapper">
     <img src="/e-learning/public/assets/gif/loader.gif" alt="">
 </div>
+
 <main class="px-5 py-2">
     <div class="row text-center">
         <div class="col-md-12 mb-3 mx-auto">
@@ -24,8 +25,9 @@
         </div>
     </div>
 
-    <div class="mt-3 p-3 text-light text-center" style="background-color: var(--bg-primary);">
+    <div class="my-5 p-3 text-light text-center" style="background-color: var(--bg-primary);">
         <span class="lead"><b>C-Games</b><p><small>Version 1.0</small></p></span>
-        <button class="btn btn-primary mr-5">Download</button>  
+        <a class="btn btn-primary"href="https://m4sterpaul18.itch.io/c-games">Download</a>
+        <p class="lead">Password: <b><u>cgames</u></b></p>
     </div>
 </main>

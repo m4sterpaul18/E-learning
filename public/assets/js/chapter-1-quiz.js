@@ -1,6 +1,6 @@
 $(function(){
-    console.log('quiz handler ready')
-    
+    console.log('chapter 1 quiz js is loaded')
+
     let answers = [
         'a',
         'b',

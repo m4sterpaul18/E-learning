@@ -8,6 +8,8 @@
         <!-- own js -->
         <script src="/e-learning/public/assets/js/ranking-api.js"></script>
         <script src="/e-learning/public/assets/js/greetings.js"></script>
+        
+        <!-- loader js -->
         <script>
             $(window).on("load",function(){
                 $('.loader-wrapper').fadeOut("slow")

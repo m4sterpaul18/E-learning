@@ -1,3 +1,7 @@
+<!-- loader -->
+<div class="loader-wrapper">
+    <img src="/e-learning/public/assets/gif/loader.gif" alt="">
+</div>
 <main class="p-5 quiz-size">
    <div class="quiz-wrapper" id="quiz-div">
    <a class="btn btn-primary btn-lg mb-3" href="/e-learning/public/lesson"><i class="fas fa-arrow-circle-left"></i> Back</a>

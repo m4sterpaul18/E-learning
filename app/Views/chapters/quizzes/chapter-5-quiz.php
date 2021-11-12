@@ -6,25 +6,26 @@
    
    <div class="quiz-wrapper" id="quiz-div">
    <a class="btn btn-primary btn-lg mb-3" href="/e-learning/public/lesson"><i class="fas fa-arrow-circle-left"></i> Back</a>
-       <h1 class="text-center my-3">Chapter 3 Quiz</h1>
+       <h1 class="text-center my-3">Chapter 5 Quiz</h1>
        <!-- question 1 -->
         <div class="quizlib-question my-class">  
             <div class="quizlib-question-title">
-                <h3> 1.Who developed C programming Language? </h3> 
+                <h3>1. What is an identifier?</h3> 
             </div>  
             <div class="quizlib-question-answers"> 
                 <ul>
                     <li>
-                        <input type="radio" name="q1" value="a"> Dennies Ritchie
+                        <input type="radio" name="q1" value="a"> Are the names allotted by users to a particular entity in a program.
                     </li>
                     <li>
-                        <input type="radio" name="q1" value="b"> Dennis Ritchie
+                        <input type="radio" name="q1" value="b"> Something that identifies names
                     </li>
                     <li>
-                        <input type="radio" name="q1" value="c"> Dennies Ritche
+                        <input type="radio" name="q1" value="c"> A graphical representation of a program that identifies
                     </li>
                     <li>
-                        <input type="radio" name="q1" value="d"> Are there any other choices? they all look the same
+                        <input type="radio" name="q1" value="d"> Why Identify variables?
+
                     </li>
                 </ul> 
             </div> 
@@ -33,21 +34,23 @@
         <!-- question 2 -->
         <div class="quizlib-question my-class">  
             <div class="quizlib-question-title">
-                <h3> 2. Where was C language was develop? </h3> 
+                <h3> 2. It is name given to a memory location, that is used to hold a value?  </h3> 
             </div>  
             <div class="quizlib-question-answers"> 
                 <ul>
                     <li>
-                        <input type="radio" name="q2" value="a"> Bell laboratories of AT&T
+                        <input type="radio" name="q2" value="a"> Identifiers
+
                     </li>
                     <li>
-                        <input type="radio" name="q2" value="b"> Bell laboratory of AL & T
+                        <input type="radio" name="q2" value="b"> Brain is an organ
                     </li>
                     <li>
-                        <input type="radio" name="q2" value="c"> Jingle Bell Laboratory & AT 
+                        <input type="radio" name="q2" value="c"> Variable    
                     </li>
                     <li>
-                        <input type="radio" name="q2" value="d"> Bell Lab &AT of L
+                        <input type="radio" name="q2" value="d"> Smac System
+
 
                     </li>
                 </ul> 
@@ -57,23 +60,22 @@
         <!-- question 3 -->
         <div class="quizlib-question my-class">  
             <div class="quizlib-question-title">
-                <h3> 3. What was the purpose of C why it is develop? </h3> 
+                <h3> 3. It is a string of alphanumeric characters that begins with an alphabet? </h3> 
             </div>  
             <div class="quizlib-question-answers"> 
                 <ul>
                     <li>
-                        <input type="radio" name="q3" value="a"> To use in different languages
+                        <input type="radio" name="q3" value="a"> Identifiers and Variables
                     </li>
                     <li>
-                        <input type="radio" name="q3" value="b"> To use in UNIX operating system
+                        <input type="radio" name="q3" value="b"> Identifiers Only	
                     </li>
                     <li>
-                        <input type="radio" name="q3" value="c"> To use as building block of programming
- 
-                    </li>
-                    <li>
-                        <input type="radio" name="q3" value="d"> To use for getting attention from crush
+                        <input type="radio" name="q3" value="c"> Variables Only
 
+                    </li>
+                    <li>
+                        <input type="radio" name="q3" value="d"> Flow Only 
                     </li>
                 </ul> 
             </div> 
@@ -82,21 +84,24 @@
         <!-- question 4 -->
         <div class="quizlib-question my-class">  
             <div class="quizlib-question-title">
-                <h3> 4. C language was design to run what kind of machine? </h3> 
+                <h3> 4. Complete the sentence. We cannot use _______ as identifier </h3> 
             </div>  
             <div class="quizlib-question-answers"> 
                 <ul>
                     <li>
-                        <input type="radio" name="q4" value="a"> Super Computer
+                        <input type="radio" name="q4" value="a"> Memes
+
                     </li>
                     <li>
-                        <input type="radio" name="q4" value="b"> Ai Computer
+                        <input type="radio" name="q4" value="b"> Learning
+
                     </li>
                     <li>
-                        <input type="radio" name="q4" value="c"> Micro computer	
+                        <input type="radio" name="q4" value="c"> Variables
+
                     </li>
                     <li>
-                        <input type="radio" name="q4" value="d"> ATX Computer
+                        <input type="radio" name="q4" value="d"> Keywords	
 
                     </li>
                 </ul> 
@@ -106,21 +111,23 @@
         <!-- question 5 -->
         <div class="quizlib-question my-class">  
             <div class="quizlib-question-title">
-                <h3> 5. What is true about C language? </h3> 
+                <h3> 5. Once an (blank) is declared, we can use the identifier anywhere 
+                    in the program to refer to the associated value.  </h3> 
             </div>  
             <div class="quizlib-question-answers"> 
                 <ul>
                     <li>
-                        <input type="radio" name="q5" value="a"> C is a high-level programming
+                        <input type="radio" name="q5" value="a"> A variable
                     </li>
                     <li>
-                        <input type="radio" name="q5" value="b"> C was used for kids
+                        <input type="radio" name="q5" value="b"> A Presence Identifier
+
                     </li>
                     <li>
-                        <input type="radio" name="q5" value="c"> C is the base for all programming languages		
+                        <input type="radio" name="q5" value="c"> An Identifier		
                     </li>
                     <li>
-                        <input type="radio" name="q5" value="d"> C was design to understand Alien
+                        <input type="radio" name="q5" value="d"> An Ant Dies
 
                     </li>
                 </ul> 
@@ -130,21 +137,22 @@
         <!-- question 6 -->
         <div class="quizlib-question my-class">  
             <div class="quizlib-question-title">
-                <h3> 6. Why we should consider learning C language? </h3> 
+                <h3> 6. Is a set of alphabets, letters and 
+                    some special characters that are valid in C language.   </h3> 
             </div>  
             <div class="quizlib-question-answers"> 
                 <ul>
                     <li>
-                        <input type="radio" name="q6" value="a"> Simple and Basic
+                        <input type="radio" name="q6" value="a"> Binary
                     </li>
                     <li>
-                        <input type="radio" name="q6" value="b"> Easy to run
+                        <input type="radio" name="q6" value="b"> Common Character
                     </li>
                     <li>
-                        <input type="radio" name="q6" value="c"> Simple and Nasty		
+                        <input type="radio" name="q6" value="c"> Characters		
                     </li>
                     <li>
-                        <input type="radio" name="q6" value="d"> Simple and Easy
+                        <input type="radio" name="q6" value="d"> Character Representation
 
                     </li>
                 </ul> 
@@ -154,21 +162,21 @@
         <!-- question 7 -->
          <div class="quizlib-question my-class">  
             <div class="quizlib-question-title">
-                <h3> 7. Why we should consider learning C language? </h3> 
+                <h3> 7. Are used to assigning value to a variable. </h3> 
             </div>  
             <div class="quizlib-question-answers"> 
                 <ul>
                     <li>
-                        <input type="radio" name="q7" value="a"> Low-level
+                        <input type="radio" name="q7" value="a"> Assignment Value
                     </li>
                     <li>
-                        <input type="radio" name="q7" value="b"> Mid-level	
+                        <input type="radio" name="q7" value="b"> Value Identifier
                     </li>
                     <li>
-                        <input type="radio" name="q7" value="c"> High-level
+                        <input type="radio" name="q7" value="c"> Assignment Operators
                     </li>
                     <li>
-                        <input type="radio" name="q7" value="d"> Basic-level
+                        <input type="radio" name="q7" value="d"> Preprocessor Variables
                     </li>
                 </ul> 
             </div> 
@@ -178,21 +186,23 @@
          <!-- question 8 -->
          <div class="quizlib-question my-class">  
             <div class="quizlib-question-title">
-                <h3> 8. What is the purpose of Main() function in C program? </h3> 
+                <h3> 8. What refers to an extensive system used for declaring variables or functions of different types.</h3> 
             </div>  
             <div class="quizlib-question-answers"> 
                 <ul>
                     <li>
-                        <input type="radio" name="q8" value="a"> It’s the brain of the program code
+                        <input type="radio" name="q8" value="a"> Data Mex
                     </li>
                     <li>
-                        <input type="radio" name="q8" value="b"> It’s the starting point of code execution		
+                        <input type="radio" name="q8" value="b"> Data Operation
+
                     </li>
                     <li>
-                        <input type="radio" name="q8" value="c"> It’s detect errors in program
+                        <input type="radio" name="q8" value="c"> Data Type	
                     </li>
                     <li>
-                        <input type="radio" name="q8" value="d"> Use to design your entire program
+                        <input type="radio" name="q8" value="d"> Data Binders
+
                     </li>
                 </ul> 
             </div> 
@@ -201,21 +211,21 @@
         <!-- question 9 -->
         <div class="quizlib-question my-class">  
             <div class="quizlib-question-title">
-                <h3> 9. What function are used to display output in C program? </h3> 
+                <h3> 9. A variable is like a _____(fill in the blank) </h3> 
             </div>  
             <div class="quizlib-question-answers"> 
                 <ul>
                     <li>
-                        <input type="radio" name="q9" value="a"> Print()
+                        <input type="radio" name="q9" value="a"> Data type
                     </li>
                     <li>
-                        <input type="radio" name="q9" value="b"> printf()		
+                        <input type="radio" name="q9" value="b"> Container
                     </li>
                     <li>
-                        <input type="radio" name="q9" value="c"> Printf()
+                        <input type="radio" name="q9" value="c"> Binary
                     </li>
                     <li>
-                        <input type="radio" name="q9" value="d"> Output()
+                        <input type="radio" name="q9" value="d"> Hardware
                     </li>
                 </ul> 
             </div> 
@@ -225,22 +235,31 @@
         <!-- question 10 -->
         <div class="quizlib-question my-class">  
             <div class="quizlib-question-title">
-                <h3> 10. What is the purpose of #include &lt;stdio.h&gt; in C program? </h3> 
+                <h3> 10. What will be the output of the C program? </h3> 
+                <pre>
+    #include &lt;stdio.h&gt;
+    int main()
+    {
+        int _int = 5;
+        printf("%d",_int);
+        return 0;
+    }
+                </pre>
             </div>  
             <div class="quizlib-question-answers"> 
                 <ul>
                     <li>
-                        <input type="radio" name="q10" value="a"> It contains all the functionalities of C language
+                        <input type="radio" name="q10" value="a"> Run time error
 
                     </li>
                     <li>
-                        <input type="radio" name="q10" value="b"> It contains database of C language	
+                        <input type="radio" name="q10" value="b"> 5
                     </li>
                     <li>
-                        <input type="radio" name="q10" value="c"> It contains  information for all input, out related function
+                        <input type="radio" name="q10" value="c"> 0
                     </li>
                     <li>
-                        <input type="radio" name="q10" value="d"> It used to be the mainframe of program code
+                        <input type="radio" name="q10" value="d"> Compilation error
 
                     </li>
                 </ul> 

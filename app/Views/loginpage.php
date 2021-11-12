@@ -1,5 +1,15 @@
 <div class="container p-5 my-5 login-wrapper" style="border-radius:0.5rem;background-color:var(--bg-primary);">
-    <form action="" method="post" class="text-light">
+
+<img src="/e-learning/public/assets/svg/students.png" 
+     alt="Icons made by Freepik" class="my-2" title="Freepik.com" 
+     width="40%" height="100%" style="
+    left: 50%;
+    top: 50%;
+    position: relative;
+    transform: translate(-50%, 0px
+);">
+
+<form action="" method="post" class="text-light">
         <h1 class="text-center">Sign In</h1>
         <?php
                 if(isset($validation)){

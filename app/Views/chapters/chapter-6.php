@@ -15,18 +15,19 @@
 </nav>
 
 <div style="position: relative; width: 100%; height: 0; padding-top: 56.2500%;
-    padding-bottom: 48px; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden;
-    border-radius: 8px; will-change: transform;">
-    <iframe loading="lazy" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0;margin: 0;"
-        src="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAEt5paKhTs&#x2F;view?embed">
-    </iframe>
+ padding-bottom: 48px; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden;
+ border-radius: 8px; will-change: transform;">
+  <iframe loading="lazy" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0;margin: 0;"
+    src="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAEt6SiOYiw&#x2F;view?embed">
+  </iframe>
 </div>
+
 
 </main>
 
 <div class="text-center my-3">
 <h1 style="color:var(--bg-primary);">Done reading?</h1>
-<a class="btn btn-primary" href="/e-learning/public/quizzes/quiz3">Go to Quiz</a>
+<a class="btn btn-primary" href="/e-learning/public/quizzes/quiz6">Go to Quiz</a>
 </div>
 
 

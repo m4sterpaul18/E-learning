@@ -62,6 +62,7 @@ $(function(){
 
             let playerNames = scores.top_scores[i].player_name;
             let playerScores = scores.top_scores[i].score;
+            let studentId = scores.top_scores[i].metadata['studentId']
             console.log(playerNames);
             console.log(playerScores);
             // top 1
@@ -78,7 +79,7 @@ $(function(){
                             <p>Score: ${playerScores}</p>
                         </div>
                         <div class="card-footer">
-                            <button class="btn btn-primary">Profile</button>
+                            <a class="btn btn-primary" href="/e-learning/public/profiles/search/${studentId}">Profile</a>
                         </div>
                     </div>
                 </div>
@@ -101,7 +102,7 @@ $(function(){
                                 <p>Score: ${playerScores}</p>
                             </div>
                             <div class="card-footer">
-                                <button class="btn btn-primary">Profile</button>
+                                <a class="btn btn-primary" href="/e-learning/public/profiles/search/${studentId}">Profile</a>
                             </div>
                         </div>
                     </div>
@@ -124,7 +125,7 @@ $(function(){
                                 <p>Score: ${playerScores}</p>
                             </div>
                             <div class="card-footer">
-                                <button class="btn btn-primary">Profile</button>
+                                <a class="btn btn-primary" href="/e-learning/public/profiles/search/${studentId}">Profile</a>
                             </div>
                         </div>
                     </div>
@@ -141,7 +142,9 @@ $(function(){
                     <td>${i+1}</td>
                     <td>${playerNames}</td>
                     <td>${playerScores}</td>
-                    <td><button class="btn btn-primary">Profile</button></td>
+                    <td>
+                        <a class="btn btn-primary" href="/e-learning/public/profiles/search/${studentId}">Profile</a>
+                    </td>
                 </tr>
                 `
                 );

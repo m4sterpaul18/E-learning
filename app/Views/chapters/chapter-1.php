@@ -1,4 +1,8 @@
- 
+ <!-- loader -->
+<div class="loader-wrapper">
+    <img src="/e-learning/public/assets/gif/loader.gif" alt="">
+</div>
+
 <main class="lessons-window-size">
 
 <nav style="display: flex;">

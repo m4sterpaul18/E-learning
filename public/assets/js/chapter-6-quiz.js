@@ -1,17 +1,17 @@
 $(function(){
-    console.log('chapter 2 quiz js is loaded')
+    console.log('chapter 6 quiz js is loaded')
     
     let answers = [
-       'c',
-       'd',
-       'b',
-       'd',
-       'c',
-       'c',
-       'c',
-       'c',
+        'a',
+        'b',
         'd',
-        'c'
+        'a',
+        'b',
+        'c',
+        'b',
+        'b',
+        'b',
+        'a'
     ];
     var quiz = new Quiz('quiz-div', answers);
 

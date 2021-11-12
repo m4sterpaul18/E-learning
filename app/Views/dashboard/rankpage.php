@@ -1,13 +1,17 @@
 <!-- loader -->
+
+
 <div class="loader-wrapper">
     <img src="/e-learning/public/assets/gif/loader.gif" alt="">
 </div>
+
 <main class="p-5 mb-5">
     <div class="mb-3">
 		<div style="width:35%;" class="mx-auto text-center">
 			<label for="ld_name" class="mb-2 lead"><b>Leaderboard Name</b></label>
 			<select id="ld_name" class="form-control" name="ld_name" style="border: 2px solid var(--bg-primary);">
-				<option selected value="main">Main</option>
+				>
+				<option selected value="C-planes">C-planes</option>
 				<option value="Game-2">Game 2</option>
 				<option value="Game-3">Game 3</option>
 			</select>
