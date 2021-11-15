@@ -33,7 +33,7 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mb-2 mb-lg-0">
                     <li class="nav-item zoom" style="text-transform: uppercase;">
-                        <a class="nav-link" aria-current="page" href="<?= base_url('e-learning/public/register')?>">Register</a>
+                        <a class="nav-link" aria-current="page" href="/e-learning/public/register/">Register</a>
                     </li>
                     <li class="nav-item zoom" style="text-transform: uppercase;">
                         <a class="nav-link" href="<?= base_url('e-learning/public/login')?>">Login</a>

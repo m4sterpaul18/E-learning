@@ -72,7 +72,7 @@
         <div class="col-md-4 p-4">
             <div class="p-5 text-center text-light lesson-8 image zoom">
                 <h3 style="color:var(--text-secondary);">Chapter 8</h3>
-                <p>Arrays & Multi-Dimensional Arrays</p>
+                <p>Functions</p>
                 <a class="btn btn-primary" href="/e-learning/public/lessons/chapter8">Learn <i class="fas fa-book-open"></i></a>
                 <a class="btn btn-success"href="/e-learning/public/quizzes/quiz8">Quiz <i class="fas fa-pen"></i></a>
             </div>
@@ -81,7 +81,7 @@
         <div class="col-md-4 p-4">
             <div class="p-5 text-center text-light lesson-9 image zoom">
                 <h3 style="color:var(--text-secondary);">Chapter 9</h3>
-                <p>Functions</p>
+                <p>Arrays & Multi-Dimensional Arrays</p>
                 <a class="btn btn-primary" href="/e-learning/public/lessons/chapter9">Learn <i class="fas fa-book-open"></i></a>
                 <a class="btn btn-success"href="/e-learning/public/quizzes/quiz9">Quiz <i class="fas fa-pen"></i></a>
             </div>

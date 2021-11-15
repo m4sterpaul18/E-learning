@@ -27,11 +27,18 @@
             if($uri->getSegment(3)=='quiz6'){
                 echo '<script src="/e-learning/public/assets/js/chapter-6-quiz.js"></script>';
             }
+            if($uri->getSegment(3)=='quiz7'){
+                echo '<script src="/e-learning/public/assets/js/chapter-7-quiz.js"></script>';
+            }
+            if($uri->getSegment(3)=='quiz8'){
+                echo '<script src="/e-learning/public/assets/js/chapter-8-quiz.js"></script>';
+            }
+            if($uri->getSegment(3)=='quiz9'){
+                echo '<script src="/e-learning/public/assets/js/chapter-9-quiz.js"></script>';
+            }
            
         ?>
-        <!-- <script src="/e-learning/public/assets/js/chapter-7-quiz.js"></script> -->
-        <!-- <script src="/e-learning/public/assets/js/chapter-8-quiz.js"></script> -->
-        <!-- <script src="/e-learning/public/assets/js/chapter-9-quiz.js"></script> -->
+
     
     <script>
 
