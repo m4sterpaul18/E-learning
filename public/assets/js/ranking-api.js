@@ -53,7 +53,12 @@ $(function(){
         showSpinner();
 
         const scores = await getScores(request_url);
-
+        
+        // reverse or not 
+        if(ldboard_name == "C-foods"){
+          scores.top_scores.reverse()  
+        }
+        
         // hide spinner after gathering data
         hideSpinner();
 

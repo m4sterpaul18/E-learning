@@ -83,7 +83,7 @@ class Home extends BaseController
 		$data = [];
 
 		// form helper for form validation
-    	helper(['form']);
+    	helper(['form','url']);
 
 		if($this->request->getMethod()== 'post'){
 			//rules for validation
@@ -91,7 +91,7 @@ class Home extends BaseController
 				'fname' => 'required|min_length[4]|max_length[50]',
 				'lname' => 'required|min_length[4]|max_length[50]',
 				'section' => 'required',
-				'student-id' => 'required|is_unique[users.student-id]|min_length[10]|max_length[10]',
+				'student-id' => 'required|is_unique[users.student-id]|min_length[10]|max_length[10]|regex_match[\d\d\d\d-\d\d\d\d\d]',
 				'password' => 'required|min_length[8]|max_length[50]',
 				'confirmPassword' => 'required|matches[password]'
 			];
@@ -117,6 +117,8 @@ class Home extends BaseController
 				//flash data for success registration
 				$session = session();
 				$session -> setFlashData('success','Successfully Registered!');
+
+				return redirect()->to(base_url('/e-learning/public/login'));
 
 			}
 		}

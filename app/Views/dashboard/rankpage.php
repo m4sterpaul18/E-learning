@@ -12,7 +12,7 @@
 			<select id="ld_name" class="form-control" name="ld_name" style="border: 2px solid var(--bg-primary);">
 				>
 				<option selected value="C-planes">C-planes</option>
-				<option value="Game-2">Game 2</option>
+				<option value="C-foods">C-foods</option>
 				<option value="Game-3">Game 3</option>
 			</select>
 

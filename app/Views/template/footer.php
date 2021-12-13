@@ -14,6 +14,19 @@
             $(window).on("load",function(){
                 $('.loader-wrapper').fadeOut("slow")
             })
+
+            // for validation
+            $('input,select').on('focus',function(){
+                $('input,select').each(function(){
+                    if($(this).val() == ''){
+                        $(this).css("border","1px solid red");
+                    }
+                    else{
+                        $(this).css("border","1px solid green");
+                    }
+	    	    })
+	        });
+
         </script>
 
     </body>

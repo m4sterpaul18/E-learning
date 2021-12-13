@@ -17,6 +17,12 @@
                         echo $validation->listErrors();
                     echo '</div>';
                 };
+
+                if (session()->get('success')){
+                    echo '<div class="alert alert-success">';
+                        echo session()->get('success');
+                    echo '</div>';
+                };
         ?>
         <div>
             <label for="Student-ID">Student-ID</label>
